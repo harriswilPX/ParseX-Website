@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParseX | Official Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.41.0/lib/index.iife.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+    <!-- Header Section -->
+    <header class="bg-gray-800 shadow">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="logo.jpg" alt="ParseX Logo" class="w-12 h-12">
+                <h1 class="text-2xl font-bold ml-4">ParseX</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="text-gray-200 hover:text-blue-400">About</a></li>
+                    <li><a href="#features" class="text-gray-200 hover:text-blue-400">Features</a></li>
+                    <li><a href="#roadmap" class="text-gray-200 hover:text-blue-400">Roadmap</a></li>
+                    <li><a href="#register" class="text-gray-200 hover:text-blue-400">Register</a></li>
+                    <li><a href="#dashboard" class="text-gray-200 hover:text-blue-400">Dashboard</a></li>
+                    <li><a href="#contact" class="text-gray-200 hover:text-blue-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-16">
+        <h2 class="text-4xl font-bold">Welcome to ParseX</h2>
+        <p class="mt-4 text-lg">Revolutionizing AI-driven solutions for your needs</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">About ParseX</h2>
+            <p class="text-gray-400">ParseX is an innovative platform leveraging AI technologies to deliver cutting-edge solutions. With features like advanced algorithms and seamless integrations, we aim to enhance productivity and scalability.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-700 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">AI Algorithms</h3>
+                    <p class="text-gray-400">Advanced AI algorithms tailored for specific tasks.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">Mobile App</h3>
+                    <p class="text-gray-400">A user-friendly mobile app for on-the-go access.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded shadow">
+                    <h3 class="text-xl font-bold mb-2">Global Expansion</h3>
+                    <p class="text-gray-400">A platform designed to scale internationally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">2025 Roadmap</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-gray-800 rounded shadow">
+                    <h3 class="text-xl font-bold">Q1: MVP</h3>
+                    <ul class="text-gray-400 list-disc list-inside">
+                        <li>Basic platform development</li>
+                        <li>Testing AI algorithms</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-800 rounded shadow">
+                    <h3 class="text-xl font-bold">Q2: Beta Version</h3>
+                    <ul class="text-gray-400 list-disc list-inside">
+                        <li>Mobile app launch</li>
+                        <li>Feedback from early users</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-800 rounded shadow">
+                    <h3 class="text-xl font-bold">Q3: Global Release</h3>
+                    <ul class="text-gray-400 list-disc list-inside">
+                        <li>International market expansion</li>
+                        <li>API integration</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-800 rounded shadow">
+                    <h3 class="text-xl font-bold">Q4: Expansion</h3>
+                    <ul class="text-gray-400 list-disc list-inside">
+                        <li>Support for new languages</li>
+                        <li>Tools for institutional investors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Register</h2>
+            <p class="mb-4 text-gray-400">Join ParseX and unlock powerful AI-driven solutions.</p>
+            <form action="#" method="POST" class="max-w-md mx-auto bg-gray-700 p-6 rounded shadow">
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-400 font-bold mb-2">Email Address</label>
+                    <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-600 rounded bg-gray-800 text-gray-200">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-400 font-bold mb-2">Password</label>
+                    <input type="password" id="password" name="password" required class="w-full p-2 border border-gray-600 rounded bg-gray-800 text-gray-200">
+                </div>
+                <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Register</button>
+                <p class="mt-4">Or</p>
+                <button type="button" class="bg-red-500 text-white font-bold py-2 px-4 rounded w-full">Sign Up with Google</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">User Dashboard</h2>
+            <p class="mb-8 text-gray-400">Welcome to your personalized dashboard. Explore the available features and tools.</p>
+            <!-- Mission Section -->
+            <div class="bg-gray-800 p-6 rounded shadow mb-8">
+                <h3 class="text-xl font-bold mb-4">Mission</h3>
+                <ul class="text-gray-400 list-disc list-inside">
+                    <li>Follow us on Twitter: <a href="https://x.com/parse_X" target="_blank" class="text-blue-400">https://x.com/parse_X</a></li>
+                    <li>Join our Discord: <a href="https://discord.gg/jfzrfNHC" target="_blank" class="text-blue-400">https://discord.gg/jfzrfNHC</a></li>
+                    <li>Like and repost this tweet: <a href="https://x.com/harris_wilPX/status/1883457856722383105" target="_blank" class="text-blue-400">https://x.com/harris_wilPX/status/1883457856722383105</a></li>
+                </ul>
+            </div>
+            <!-- Wallet Connection Section -->
+            <div class="bg-gray-800 p-6 rounded shadow">
+                <h3 class="text-xl font-bold mb-4">Connect Your Wallet</h3>
+                <p class="text-gray-400 mb-4">Connect your Phantom wallet to interact with Solana features.</p>
+                <button id="connectWallet" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Connect Phantom Wallet</button>
+                <p id="walletAddress" class="text-gray-400 mt-4"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wallet Connection Script -->
+    <script>
+        const connectWalletButton = document.getElementById('connectWallet');
+        const walletAddressDisplay = document.getElementById('walletAddress');
+
+        connectWalletButton.addEventListener('click', async () => {
+            if (window.solana && window.solana.isPhantom) {
+                try {
+                    const response = await window.solana.connect();
+                    walletAddressDisplay.textContent = `Connected: ${response.publicKey.toString()}`;
+                } catch (err) {
+                    walletAddressDisplay.textContent = `Error: ${err.message}`;
+                }
+            } else {
+                walletAddressDisplay.textContent = 'Phantom wallet not found. Please install it from https://phantom.app';
+            }
+        });
+    </script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="mb-4">Have questions? Reach out to our team!</p>
+            <a href="mailto:contact@parsex.com" class="bg-white text-blue-600 font-bold py-2 px-4 rounded shadow">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-4 text-center">
+        <p>&copy; 2025 ParseX. All rights reserved.</p>
+    </footer>
+</body>
+</html>
